@@ -1,0 +1,15 @@
+
+.container{
+    display: flex;
+    flex-wrap: wrap;
+}
+.container div{
+    height: 70vh;
+    border: 1px solid black;
+    flex-basis: 400px;
+}
+@media screen and (max-width: 500px){
+    .container div {
+        flex-basis : 300px;
+    }
+}
